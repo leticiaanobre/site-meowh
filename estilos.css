@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'amorzin';
+    src: url(fonte/Ready\ Lover\ Font\ by\ 7Ntypes.otf);
+    font-weight: bold;
+}
+
+body{
+    background-color: #FFE3C7;
+}
+
+main{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'amorzin';
+    font-size: 75px;
+    color: #7a695d;
+    line-height: 70px;
+    margin-bottom: 15px;
+}
+
+div#img img{
+    height: 420px;
+    margin: auto;
+    border-radius: 10%;
+}
+
+div#op{
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    background-color: #d75413;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: .3s;
+}
+
+a:hover{
+    background-color: #f8c390;
+    color: #d75413;
+    transition: .3s;
+}
+
